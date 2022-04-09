@@ -9,15 +9,15 @@ function Navbar (props){
     }
 
     return(
-        <div classNameNameName="navbar container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href=''>Cheapstagram</a>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" href="/home">Posts</a>
-                            <a class="nav-link active" href="/profile">My profile</a>
-                            <a class="nav-link" href='' onClick={handleLogOut}>Log out</a>
+        <div className="navbar container-fluid">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+                <div className="container-fluid">
+                    <a className="navbar-brand" href=''>Cheapstagram</a>
+                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div className="navbar-nav">
+                            <a className="nav-link active" href="/home">Posts</a>
+                            <a className="nav-link active" href="/profile">My profile</a>
+                            <a className="nav-link" href='' onClick={handleLogOut}>Log out</a>
                         </div>
                     </div>
                 </div>

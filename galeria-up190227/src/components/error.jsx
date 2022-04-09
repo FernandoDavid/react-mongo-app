@@ -8,5 +8,4 @@ function Error (props){
         </div>
     )
 }
-//cambiuo
 export default Error

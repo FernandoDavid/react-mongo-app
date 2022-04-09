@@ -7,12 +7,11 @@ import config from "../config"
 
 function Profile (props){
     
-    
+    //Boton para abrir modal para crear publicacion nueva
     return(
         <div className="profile">
             <Navbar/>
             <h1>Profile</h1>
-            
             <h2>{localStorage.getItem('userId')}</h2>
         </div>
     )

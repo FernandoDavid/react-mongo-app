@@ -1,10 +1,11 @@
 import { useState, useRef} from "react"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import axios from 'axios'
 import Swal from 'sweetalert2'
 import config from "../config"
 
 function Register (props){
+    const navigate = useNavigate()
 
     let usernameInput = useRef("")
     let passInput = useRef("")
@@ -35,6 +36,7 @@ function Register (props){
                 showConfirmButton: false,
                 timer: 2000
             })
+            navigate('/login')
         }
         else if (response.data.code === 301){
             Swal.fire({

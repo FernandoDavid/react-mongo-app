@@ -19,6 +19,10 @@ function Home(props){
         setPosts(postInfo)
     }
 
+    const validateLogin = ()=>{
+        
+    }
+
 
     return(
         <div className="home">
