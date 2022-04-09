@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/galeria-up190227/node_modules
+/API/node_modules
+/galeria-up190227/.pnp
+/galeria-up190227.pnp.js
+
+# testing
+/galeria-up190227/coverage
+
+# production
+/galeria-up190227/build
+
+# misc
+/galeria-up190227.DS_Store
+/galeria-up190227.env.local
+/galeria-up190227.env.development.local
+/galeria-up190227.env.test.local
+/galeria-up190227.env.production.local
+
+/galeria-up190227npm-debug.log*
+/galeria-up190227yarn-debug.log*
+/galeria-up190227yarn-error.log*
