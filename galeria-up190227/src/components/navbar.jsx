@@ -9,8 +9,8 @@ function Navbar (props){
     }
 
     return(
-        <div className="navbar container-fluid">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div>
+            <nav className="navbar navbar-expand-lg">
                 <div className="container-fluid">
                     <a className="navbar-brand" href=''>Cheapstagram</a>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">

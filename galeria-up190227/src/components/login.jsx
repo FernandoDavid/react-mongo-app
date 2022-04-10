@@ -39,8 +39,8 @@ function Login (props){
         <div className="login">
             <div className="container-fluid">
                 <div className="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-                    <div className="card col-4 align-self-center ">
-                        <div className="card-header bg-dark text-center text-white">
+                    <div className="card col-4 align-self-center bg-light">
+                        <div className="card-header text-center text-white">
                             <h4 className="mt-2">Log In</h4>
                         </div>
                         <div className="card-body m-2">
