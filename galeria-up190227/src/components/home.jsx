@@ -32,7 +32,7 @@ function Home(props){
                 <div className="row justify-content-around">
                     {posts.map((info) => (
                         <div key={info._id} className="col-3 mb-3">
-                            <Post postInfo={info}/>
+                            <Post postInfo={info} enableCRUD={false}/>
                         </div>
                     ))}
                 </div>

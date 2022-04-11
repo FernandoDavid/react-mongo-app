@@ -48,6 +48,10 @@ svg {
     stroke-width: 2.5px;
 }
 
+svg:hover{
+    cursor: pointer;
+}
+
 a {
     color: rgb(255, 89, 255);
 }
